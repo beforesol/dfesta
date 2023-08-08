@@ -16,9 +16,4 @@ export const routes = [
     exact: true,
     element: lazy(() => import('@/pages/introduce/theMovie')),
   },
-  {
-    path: '/introduce/the-experience',
-    exact: true,
-    element: lazy(() => import('@/pages/introduce/theExperience')),
-  },
 ];
